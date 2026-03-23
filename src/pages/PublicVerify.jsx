@@ -113,10 +113,10 @@ const PublicVerify = () => {
 
                     <div style={{ textAlign: 'center', borderTop: '1px solid rgba(255,255,255,0.05)', paddingTop: '28px' }}>
                         <div style={{ fontFamily: '"Brush Script MT", cursive', fontSize: '32px', color: 'white', marginBottom: '8px', opacity: 0.9 }}>
-                            Nithin N
+                            GECI BUS PASS
                         </div>
                         <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.4)', fontWeight: '700', letterSpacing: '2px', textTransform: 'uppercase' }}>
-                            Digitally Verified by BusID+
+                            Digitally Verified by ADMIN
                         </div>
                     </div>
                 </div>
