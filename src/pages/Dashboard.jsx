@@ -92,7 +92,7 @@ const Dashboard = () => {
                     <div className="text-center">
                         <div style={{ fontSize: '48px' }}>📅</div>
                         <h3>System Active</h3>
-                        <p className="text-muted">Academic Year 2024-25</p>
+                        <p className="text-muted">Academic Year 2025-26</p>
                     </div>
                 </div>
             </div>
