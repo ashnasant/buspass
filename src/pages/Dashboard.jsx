@@ -127,14 +127,7 @@ const Dashboard = () => {
                     </div>
                 </div>
 
-                <div className="card highlight-card" style={{ borderLeft: '5px solid #28a745', background: '#f8fff9' }}>
-                    <h3 className="card-title">Pass Validity</h3>
-                    <div className="text-center" style={{ padding: '20px' }}>
-                        <div style={{ fontSize: '48px', color: '#28a745', marginBottom: '10px' }}>✓</div>
-                        <div style={{ fontSize: '1.2rem', fontWeight: 'bold', color: '#155724' }}>Account Active</div>
-                        <p className="text-muted" style={{ marginTop: '10px' }}>Your digital pass is verified and ready for travel.</p>
-                    </div>
-                </div>
+                
             </div>
         </div>
     );
