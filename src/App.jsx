@@ -11,6 +11,7 @@ import Register from './pages/Register';
 import RegisterAdmin from './pages/RegisterAdmin';
 import ManageRoutes from './pages/ManageRoutes';
 import ApprovedStudents from './pages/ApprovedStudents';
+import RejectedStudents from './pages/RejectedStudents';
 import Profile from './pages/Profile';
 import Settings from './pages/Settings';
 import Landing from './pages/Landing';
@@ -33,7 +34,7 @@ const MainLayout = ({ children }) => {
         <div className="app">
             <Sidebar isOpen={isSidebarOpen} setIsOpen={setIsSidebarOpen} />
             <div className="main-content">
-                <Topbar onMenuClick={() => setIsOpen(!isSidebarOpen)} />
+                <Topbar onMenuClick={() => setIsSidebarOpen(!isSidebarOpen)} />
                 <div className="page">
                     {children}
                 </div>
@@ -62,6 +63,7 @@ function App() {
                                     <Route path="/applications" element={<MainLayout><Applications /></MainLayout>} />
                                     <Route path="/routes" element={<MainLayout><ManageRoutes /></MainLayout>} />
                                     <Route path="/users" element={<MainLayout><ApprovedStudents /></MainLayout>} />
+                                    <Route path="/rejected" element={<MainLayout><RejectedStudents /></MainLayout>} />
                                     <Route path="/profile" element={<MainLayout><Profile /></MainLayout>} />
                                     <Route path="/settings" element={<MainLayout><Settings /></MainLayout>} />
                                     <Route path="/passes" element={<MainLayout><Passes /></MainLayout>} />

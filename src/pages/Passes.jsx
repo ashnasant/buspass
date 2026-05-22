@@ -100,7 +100,7 @@ const Passes = () => {
                                 {/* Header Section */}
                                 <div style={{ padding: '24px 28px 10px', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
                                     <div>
-                                        <div style={{ fontSize: '15px', fontWeight: '800', letterSpacing: '1.5px', color: 'white' }}>STATE COLLEGE OF ENGINEERING</div>
+                                        <div style={{ fontSize: '15px', fontWeight: '800', letterSpacing: '1.5px', color: 'white' }}>GOVERNMENT ENGINEERING COLLEGE IDUKKI</div>
                                         <div style={{ fontSize: '12px', color: 'rgba(255,255,255,0.6)', marginTop: '4px' }}>
                                             Monthly Bus Pass • {new Date(pass.issued_at).toLocaleString('default', { month: 'long', year: 'numeric' })}
                                         </div>

@@ -25,6 +25,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
             { path: '/applications', icon: '📝', label: 'Applications' },
             { path: '/routes', icon: '🛣️', label: 'Manage Routes' },
             { path: '/users', icon: '🎓', label: 'Approved Students' },
+            { path: '/rejected', icon: '❌', label: 'Rejected Students' },
             { path: '/settings', icon: '⚙️', label: 'Settings' },
         ],
         student: [
