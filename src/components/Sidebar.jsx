@@ -8,8 +8,9 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
     const location = useLocation();
 
     const handleLogout = () => {
-        localStorage.removeItem('busid_user');
-        window.location.href = '/';
+        // Use context logout so state is cleared consistently across the app
+        logout();
+        navigate('/');
     };
 
     const closeSidebarMobile = () => {
