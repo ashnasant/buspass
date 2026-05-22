@@ -115,7 +115,16 @@ const Register = () => {
 
                     <div className="form-group">
                         <label className="form-label">Mobile Number</label>
-                        <input type="text" name="phone" className="form-input" placeholder="+91 XXXXX XXXXX" onChange={handleChange} required />
+                        <input
+                              type="tel"
+                              name="phone"
+                              className="form-input"
+                              placeholder="Enter 10 digit mobile number"
+                              maxLength="10"
+                              pattern="[0-9]{10}"
+                              onChange={handleChange}
+                              required
+                            />
                     </div>
 
                     <button type="submit" className="btn btn-primary w-full" style={{ padding: '14px', marginTop: '10px' }}>Complete Registration</button>
